@@ -26,6 +26,8 @@
     margin-right: auto;
     margin-left: auto;
     padding: 20px 40px;
+    width: 100%;
+    position: absolute;
 }
 
 .block-avatar {
