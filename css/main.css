@@ -156,4 +156,7 @@
     .block-item a .app-name {
         font-size: 14px;
     }
+    .block-item a .app-name span{
+        font-size: 12px;
+    }
 }
