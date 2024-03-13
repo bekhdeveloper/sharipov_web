@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.blocks-section {
+    max-width: 100%;
+    /* border: 2px solid blue; */
+    background-image: linear-gradient(rgba(0,0,0,0.40), rgba(0,0,0,0.40));    
+    background-position: center;
+    background-size: center;
+
+    aspect-ratio: 2/1;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.blocks-section video {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+
+}
+
+/* .container {
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px 40px;
+} */
+
+.block-avatar {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.block-avatar img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.personal-name {
+    text-align: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 30px;
+}
+
+.block-text {
+    text-align: center;
+    color: white;
+}
+
+.block-text p {
+    font-family: Times;
+    font-size: 18px;
+    line-height: 1.45;
+    font-weight: 400;
+}
+
+.block-item {
+    font-family: 'Arial Narrow Bold';
+    position: relative;
+    width: 50%;
+    margin: auto;
+    padding: 10px 10px;
+    background-color: #061b25bf;
+    border-color: #061b25;
+    border-radius: 10px;
+    /* backdrop-filter: blur(1px) saturate(120%); */
+}
+
+.block-item a {
+    text-decoration: none;
+}
+
+.block-item a svg {
+    position: absolute;
+    color: white;
+}
+
+.block-item a .app-name {
+    font-family:  'Times';
+    font-weight: 600;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin: 0;
+    padding-bottom: 4px;
+}
+
+.line-bottom {
+    width: 20%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.line-bottom div {
+    width: 120px;
+    height: 1px;
+    background-color: white;
+}
